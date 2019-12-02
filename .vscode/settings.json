@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "./database.db",
+            "dialect": "SQLite",
+            "name": "python_gui"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
