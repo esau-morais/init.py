@@ -33,10 +33,10 @@ class Functions():
 
         self.main_window = window.configure(bg='#005484') # Window background
 
-        self.main_window_icon = PhotoImage(file=os.path.join(r'/home/esau_morais/Área de Trabalho/Python/My Python GUI/main_icon.png'))
+        self.main_window_icon = PhotoImage(file=os.path.join(r'/home/esau-morais/Desktop/Python-Codes/My Python GUI/main_icon.png'))
         window.call('wm', 'iconphoto', window._w, self.main_window_icon)
 
-        self.main_window_image = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/background.gif')
+        self.main_window_image = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/background.gif')
 
         self.main_window_background = Label(self.main_window, image=self.main_window_image)
         self.main_window_background.place(x=0, y=0, relwidth=1, relheight=1)
@@ -80,7 +80,7 @@ class Functions():
 
         self.sub_menu_03.add_command(label='Close (Window in focus) → Alt + F4', state=DISABLED)
 
-        self.photo_01 = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/icon.png')
+        self.photo_01 = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/icon.png')
 
         self.pass_button = Frame(master)
         self.pass_button.pack(side=BOTTOM)
@@ -130,7 +130,7 @@ class Functions():
 
         self.main_window_02 = self.new_main_window.configure(bg='#005484')
         
-        self.new_main_window_background = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/background.gif')
+        self.new_main_window_background = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/background.gif')
 
         self.new_main_window_label = Label(self.new_main_window, image=self.new_main_window_background)
         self.new_main_window_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -229,7 +229,7 @@ class Functions():
 
         self.main_window_02 = self.new_main_window_02.configure(bg='#005484')
 
-        self.new_main_window_background_02 = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/background.gif')
+        self.new_main_window_background_02 = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/background.gif')
 
         self.new_main_window_label = Label(self.new_main_window_02, image=self.new_main_window_background_02)
         self.new_main_window_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -329,7 +329,7 @@ class Functions():
 
         self.info_background = self.info_window.configure(bg='#005484')
 
-        self.info_image = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/background.gif')
+        self.info_image = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/background.gif')
 
         self.info_background_01 = Label(self.info_window, image=self.info_image)
         self.info_background_01.place(x=0, y=0, relwidth=1, relheight=1)
@@ -363,7 +363,7 @@ class Functions():
 
         self.help_background = self.help_window.configure(bg='#005484')
 
-        self.help_image = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/background.gif')
+        self.help_image = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/background.gif')
 
         self.help_background_02 = Label(self.help_window, image=self.help_image)
         self.help_background_02.place(x=0, y=0, relwidth=1, relheight=1)
@@ -405,7 +405,7 @@ class Functions():
 
         self.authenticate_geometry = authenticate_window.geometry('700x400')
 
-        self.authenticate_image = PhotoImage(file='/home/esau_morais/Área de Trabalho/Python/My Python GUI/background.gif')
+        self.authenticate_image = PhotoImage(file='/home/esau-morais/Desktop/Python-Codes/My Python GUI/background.gif')
 
         self.authenticate_background = Label(authenticate_window, image=self.authenticate_image)
         self.authenticate_background.place(x=0, y=0, relwidth=1, relheight=1)
