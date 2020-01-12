@@ -10,8 +10,8 @@ class GitHubBot:
     self.driver = webdriver.Chrome()
 
   
-  """ def closeBrowser(self):
-    self.driver.close() """
+  def closeBrowser(self):
+    self.driver.close()
   
 
   def login(self):
