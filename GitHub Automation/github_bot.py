@@ -20,16 +20,15 @@ class GitHubBot:
     driver.get('https://github.com/')
     time.sleep(2)
     # "//a[href='https://github.com/login']"
-    login_btn = driver.find_element_by_xpath("//a[href='https://github.com/login']")
+    login_btn = driver.find_element_by_link_text("Sign in")
     login_btn.click()
     time.sleep(2)
     # "//input[@name='login']"
     user = driver.find_element_by_xpath("//input[@name='login']")
     user.clear()
     user.send_keys(self.username)
-
-    # "//input[@name='login']"
-    passw = driver.find_element_by_xpath("//input[@name='login']")
+    # "//input[@name='password']"
+    passw = driver.find_element_by_xpath("//input[@name='password']")
     passw.clear()
     passw.send_keys(self.password)
     passw.send_keys(Keys.RETURN)
