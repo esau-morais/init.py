@@ -2,9 +2,9 @@
 
 All about Python theory
 
-Python Automation
+* Python Automation
 
-Python modules
-
+* Python modules
+  * Matplotlib
   * Tkinter
-  * 
+  * Turtle
