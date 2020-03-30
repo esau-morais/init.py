@@ -1,6 +1,5 @@
 # Python
-
-All about Python theory and exercices
+* All about Python theory and exercices
   * Strings
   * One-line inputs
   * F-string
