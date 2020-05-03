@@ -60,7 +60,7 @@ class InstagramBot:
 				time.sleep(2)
 
 
-esau_ig = InstagramBot("e.mmorais", "TheRestIsConfetti")
+esau_ig = InstagramBot("<user>", "password")
 esau_ig.login()
 
 hashtags = ['amazing', 'beaultiful', 'adventure']
