@@ -43,7 +43,7 @@ You can clone this repository and try to code in Python now!!
 
 * Install packages
 
-`pip install > requirements.txt`
+`pip install -r requirements.txt`
 
 * And practice more!
 
