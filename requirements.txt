@@ -1,4 +1,4 @@
-Django==3.0.8
+Django==3.1.12
 pyqrcode==1.2.1
 emoji==0.5.4
 selenium==3.141.0
